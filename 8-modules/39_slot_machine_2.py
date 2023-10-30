@@ -18,7 +18,7 @@ def play():
   if win:
     print('Jackpot!!! 💰')
   else:
-    results = random.choices(symbols, k=3)
+    print('No jackpot this time. 😢')
 
 answer = ''
 
