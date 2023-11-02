@@ -3,7 +3,7 @@
 
 import random
 
-question = input('Is Codédex better than Udemy yet? ') # Replace with your own question
+question = input('Enter a question: ')
 
 random_number = random.randint(1, 9)
 
@@ -28,5 +28,4 @@ elif random_number == 9:
 else:
   answer = 'Error'
   
-print('Question:      ' + question) 
-print('Magic 8 Ball:  ' + answer)
+print('Magic 8 Ball: ' + answer)
