@@ -3,7 +3,7 @@
 
 import random
 
-question = input('Enter a question: ')
+question = input('Question:      ')
 
 random_number = random.randint(1, 9)
 
@@ -28,4 +28,4 @@ elif random_number == 9:
 else:
   answer = 'Error'
   
-print('Magic 8 Ball: ' + answer)
+print('Magic 8 Ball:  ' + answer)
