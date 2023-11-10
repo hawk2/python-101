@@ -1,23 +1,19 @@
-# Sorting Hat 🧙‍♂️
-# Codédex
 
 gryffindor = 0
 hufflepuff = 0
 ravenclaw = 0
 slytherin = 0
 
-print('===============')
 print('The Sorting Hat')
-print('===============')
+
 
 # ~~~~~~~~~~~~~~~ Question 1 ~~~~~~~~~~~~~~~
 
-print('Q1) Do you like Dawn or Dusk?')
-
-print('  1) Dawn')
-print('  2) Dusk')
-
-answer = int(input('Enter answer (1-2): '))
+answer = int(input("""
+Do you like Dawn or Dusk?
+1) Dawn
+2) Dusk
+Enter answer (1-2): """))
 
 if answer == 1:
   gryffindor += 1
@@ -30,14 +26,14 @@ else:
 
 # ~~~~~~~~~~~~~~~ Question 2 ~~~~~~~~~~~~~~~
 
-print("\nQ2) When I'm dead, I want people to remember me as:")
 
-print('  1) The Good')
-print('  2) The Great')
-print('  3) The Wise')
-print('  4) The Bold')
-
-answer = int(input('Enter your answer (1-4): '))
+answer = int(input("""
+When I'm dead, I want people to remember me as:
+1) The Good
+2) The Great
+3) The Wise
+4) The Bold
+Enter your answer (1-4): """))
 
 if answer == 1:
   hufflepuff += 2
@@ -59,7 +55,13 @@ print('  2) The trumpet')
 print('  3) The piano')
 print('  4) The drum')
 
-answer = int(input('Enter your answer (1-4): '))
+answer = int(input("""
+Which kind of instrument most pleases your ear?
+1) The violin
+2) The trumpet
+3) The piano
+4) The drum
+Enter your answer (1-4): """))  
 
 if answer == 1:
   slytherin += 4
